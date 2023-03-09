@@ -1,10 +1,9 @@
 import React from "react";
 import Player from "@madzadev/audio-player";
-
 const tracks = [
   {
-    url: "https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3",
-    title: "Madza - Chords of Life",
+    url: "https://github.com/patxiarana/audios/blob/main/Palito%20Ortega%20%20Yo%20Tengo%20Fe%20Que%20Todo%20Cambiar%20Official%20Audio.mp3?raw=true",
+    title: "hoy tomo la guitarra",
     tags: ["house"],
   },
   {
@@ -22,14 +21,12 @@ const tracks = [
 
 
 
-
 const Player1 = () => {
   return (
   <div>
-    <Player
-    trackList={tracks}
-    
-    />
+    <Player 
+   trackList={tracks}
+   />
   </div>
   );
 };
